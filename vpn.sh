@@ -1,5 +1,6 @@
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python get-pip.py
+pip install shadowsocks
 wget https://raw.githubusercontent.com/liuhongda91/shell-scripts/main/shadowsocks.json
 firewall-cmd --zone=public --add-port=9000/tcp --permanent
 nohup ssserver -c shadowsocks.json >>  ss.log 2>&1 &
