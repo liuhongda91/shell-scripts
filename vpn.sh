@@ -1,3 +1,8 @@
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python get-pip.py
+wget https://raw.githubusercontent.com/liuhongda91/shell-scripts/main/shadowsocks.json
+firewall-cmd --zone=public --add-port=9000/tcp --permanent
+
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 
