@@ -3,6 +3,7 @@ python get-pip.py
 pip install shadowsocks
 wget https://raw.githubusercontent.com/liuhongda91/shell-scripts/main/shadowsocks.json
 firewall-cmd --zone=public --add-port=9000/tcp --permanent
+firewall-cmd --reload
 nohup ssserver -c shadowsocks.json >>  ss.log 2>&1 &
 
 curl -fsSL https://get.docker.com -o get-docker.sh
