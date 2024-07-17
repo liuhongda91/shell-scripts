@@ -8,11 +8,12 @@ yum install wget -y
 #nohup ssserver -c shadowsocks.json >>  ss.log 2>&1 &
 #sudo ssserver -p 443 -k password -m aes-256-cfb --user nobody -d start
 
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-systemctl start docker.service
-systemctl enable docker.service
+sudo systemctl start docker
+sudo systemctl enable docker
 
 docker pull hwdsl2/ipsec-vpn-server
 
