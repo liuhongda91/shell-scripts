@@ -9,8 +9,11 @@ yum install wget -y
 #sudo ssserver -p 443 -k password -m aes-256-cfb --user nobody -d start
 
 sudo yum install -y yum-utils
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+#sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+#sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
 
 sudo systemctl start docker
 sudo systemctl enable docker
