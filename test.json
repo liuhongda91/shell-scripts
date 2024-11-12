@@ -6,6 +6,46 @@
             "id": 1,
             "name": "101",
             "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 2,
+            "name": "102",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 3,
+            "name": "103",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 4,
+            "name": "104",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 5,
+            "name": "105",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 6,
+            "name": "106",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 7,
+            "name": "107",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 8,
+            "name": "108",
+            "lodgings": ["a", "b", "c"]
+        },
+        {
+            "id": 9,
+            "name": "109",
+            "lodgings": ["a", "b", "c"]
         }
     ]
 }
