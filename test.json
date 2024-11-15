@@ -5,47 +5,52 @@
         {
             "id": 1,
             "name": "101",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/56d76ca217ce4f4ea9b9e996ce729e9a/thumbnails/498013fb419b41c4b5dbed96dcb7ea1e/e09776e32824411db2abec670b83f8e9.jpeg"
         },
         {
             "id": 2,
             "name": "102",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/754d0865531a4ce6a5872afa9bac74ec/thumbnails/a403e20a0eb046eeb20f77a1b2da04a0/b57bbf3214944cec94ed93c603e51b48.jpeg"
         },
         {
             "id": 3,
             "name": "103",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/df540ea9597847b8bb62e87e29ef0fad/thumbnails/cf4a4554bf37475284f0c2c530bc8e26/bedba79121bf4c62bbc4b34b5793ed6d.jpeg"
         },
         {
             "id": 4,
             "name": "104",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/05256d7f6e93449bb6faac093ac284d7/thumbnails/9956531a487146819afd13408381a4c5/660d376509644baba850b9797be308af.jpeg"
         },
         {
             "id": 5,
             "name": "105",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/1a2ed014b01544468acebb32169a0a00/thumbnails/aac50a178efd42858aa43b1f1fd49cbc/8e1adccfc2fa4b1895cba53abf93b875.jpeg"
         },
         {
             "id": 6,
             "name": "106",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/240baad0fd7b4924a5705950be7adee6/thumbnails/d2fb77b5a868497cbbef9c6f663018e6/20d370a410004580999b7167615c6f6f.jpeg"
         },
         {
             "id": 7,
             "name": "107",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/1368b104aa8148a3be15f4dfc8832045/thumbnails/fad5785225564c6697dbf5ea493ef546/fd9738d3c09f4c32805157ab9989e7d5.jpeg"
         },
         {
             "id": 8,
             "name": "108",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/39f6ddae6bcf437c9228e9feb2061bd4/thumbnails/4b7d127742394ae5bda86375987cdda6/a3fdc71ba34740d1ae6f207226d6e56e.jpeg"
         },
         {
             "id": 9,
             "name": "109",
-            "lodgings": ["a", "b", "c"]
+            "thumbnailLink": "https://media.sketchfab.com/models/8eb37a05dce74bc3b2e886928c0e1385/thumbnails/8a8401b1230f4d10852fba20c90b27d3/be54b1ced4504ea2b9eecc8481fee9e6.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "110",
+            "thumbnailLink": "https://media.sketchfab.com/models/e81e72220c904c8ba697211b4cdee689/thumbnails/dc601cbfe4bf40fcb0466e78c778cfb8/685339353529462ba8e4eadfedd09e6d.jpeg"
         }
     ]
 }
